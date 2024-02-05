@@ -1,0 +1,7 @@
+export {default as Header} from "./Header/Header"
+export {default as Companies} from "./Companies/Companies"
+export {default as About} from "./About/About"
+export {default as Content} from "./Content/Content"
+export {default as FaqSection} from "./FaqSection/FaqSection"
+export {default as Product} from "./Product/Product"
+export {default as Footer} from "./Footer/Footer"
