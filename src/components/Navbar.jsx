@@ -13,12 +13,14 @@ const Navbar = () => {
       <div className="flex gap-[40px]">
         {navItems.map((items, index) => {
           if (items !== "Pricing") {
-            return <div key={index} className="flex items-center gap-[6px]">
+            return <div key={index} className="flex cursor-pointer items-center gap-[6px]">
                 <span className="text-[#667085]">{items}</span>
                 <img className="h-[18px] w-[18px]" src={images.chevron} alt="arrowdown" />
                 </div>;
           }
-          return items
+          return <div key={index} className="flex cursor-pointer items-center gap-[6px]">
+          <span className="text-[#667085]">{items}</span>
+          </div>;
         })}
       </div>
       <div className="flex gap-[8px]">

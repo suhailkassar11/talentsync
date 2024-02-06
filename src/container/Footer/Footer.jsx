@@ -37,25 +37,25 @@ const Footer = () => {
                 <div className='flex flex-col gap-4 w-[160px]'>
                     <h2 className='text-[#667085] text-base'>Product</h2>
                     {Product.map((item,index)=>(
-                        <h3 className='text-[#475467] text-lg font-semibold' key={index}>{item}</h3>
+                        <h3 className='text-[#475467] cursor-pointer text-lg font-semibold' key={index}>{item}</h3>
                     ))}
                 </div>
                 <div className='flex flex-col gap-4 w-[160px]'>
                     <h2 className='text-[#667085] text-base'>Company</h2>
                     {Company.map((item,index)=>(
-                        <h3 className='text-[#475467] text-lg font-semibold' key={index}>{item}</h3>
+                        <h3 className='text-[#475467] cursor-pointer text-lg font-semibold' key={index}>{item}</h3>
                     ))}
                 </div>
                 <div className='flex flex-col gap-4 w-[160px]'>
                     <h2 className='text-[#667085] text-base'>Resources</h2>
                     {Resources.map((item,index)=>(
-                        <h3 className='text-[#475467] text-lg font-semibold' key={index}>{item}</h3>
+                        <h3 className='text-[#475467] text-lg cursor-pointer font-semibold' key={index}>{item}</h3>
                     ))}
                 </div>
                 <div className='flex flex-col gap-4 w-[160px]'>
                     <h2 className='text-[#667085] text-base'>Legal</h2>
                     {Legal.map((item,index)=>(
-                        <h3 className='text-[#475467] text-lg font-semibold' key={index}>{item}</h3>
+                        <h3 className='text-[#475467] cursor-pointer text-lg font-semibold' key={index}>{item}</h3>
                     ))}
                 </div>
                 <div className='flex flex-col gap-4 w-[160px]'>
@@ -71,9 +71,9 @@ const Footer = () => {
       <div className='bg-[#F9FAFB] gap-16 py-12 px-0 h-[120px] flex justify-center items-center'>
         <div className='flex  gap-8 h-6 w-[1408px] items-center justify-center'>
             <h2 className='text-base font-normal text-[#667085] w-[1112px] items-center'>© 2023 ClearLink. All rights reserved.</h2>
-            <div className='flex gap-6 items-center'>
+            <div className=' flex gap-6 items-center'>
                 {FooterIcon.map((item)=>(
-                    <span key={item}>{item.icon}</span>
+                    <span className='cursor-pointer' key={item}>{item.icon}</span>
                 ))}
             </div>
         </div>

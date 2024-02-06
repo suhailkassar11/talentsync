@@ -17,7 +17,9 @@ import userReview from "../assets/User reviews.png"
 import MobileBadge from "../assets/Mobilebadge.png"
 import chevron from "../assets/chevron-down.png"
 import Frame10 from "../assets/Frame10.png"
+import bgImg from "../assets/bgImg.png";
 export default {
+    bgImg,
     chevron,
     Frame10,
     arrow,

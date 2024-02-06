@@ -6,12 +6,12 @@ import { CiFaceSmile, CiSettings } from "react-icons/ci";
 import { BiMessageRoundedDetail } from "react-icons/bi";
 
 const Icons = [
-  {id:1,icon:<IoMicOutline />},
-  {id:2,icon:<IoVideocamOutline />},
-  {id:3,icon:<LuMonitor />},
-  {id:4,icon:<CiFaceSmile />},
-  {id:5,icon:<BiMessageRoundedDetail />},
-  {id:6,icon:<CiSettings />},
+  {id:1,icon:<IoMicOutline className="h-6 w-6" />},
+  {id:2,icon:<IoVideocamOutline className="h-6 w-6"/>},
+  {id:3,icon:<LuMonitor className="h-6 w-6"/>},
+  {id:4,icon:<CiFaceSmile className="h-6 w-6"/>},
+  {id:5,icon:<BiMessageRoundedDetail className="h-6 w-6"/>},
+  {id:6,icon:<CiSettings className="h-6 w-6"/>},
 ];
 
 const HeroSection = () => {
@@ -59,7 +59,7 @@ const HeroSection = () => {
         <div className="flex h-[44px] w-[344px] gap-[16px]">
           {Icons.map((item) => (
             <h2
-              className="bg-[#FFFFFF] text-[#175CD3] items-center flex h-[44px] w-[44px] rounded-[100px] border-[1px] border-[#D1E9FF] p-[12px]"
+              className="bg-[#FFFFFF] text-[#175CD3] cursor-pointer items-center flex  rounded-[100px] border-[1px] border-[#D1E9FF] p-[12px]"
               key={item.id}
             >
               {item.icon}

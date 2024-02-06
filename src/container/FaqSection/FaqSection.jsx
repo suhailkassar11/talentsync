@@ -12,7 +12,7 @@ const Points=[
 
 const FaqSection = () => {
   return (
-    <div className="flex h-[912px] py-24 px-40 top-[2914px] gap-24">
+    <div className="flex h-[697px] py-24 px-40 top-[2914px] gap-24">
       <div className="flex justify-between h-[720px] w-[1408px]">
         <div className="flex flex-col gap-5 h-[216px] w-[547px]">
           <div className="flex flex-col gap-3 h-[100px]">

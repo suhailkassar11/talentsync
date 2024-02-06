@@ -11,7 +11,7 @@ const Points=[
 
 const Product = () => {
   return (
-    <div className='h-[697px] top-[3826px] flex justify-between py-24 px-40'>
+    <div className='h-[697px] top-[2914px] flex justify-between py-24 px-40'>
       <div className='flex flex-col gap-10 h-[432px] w-[579px]'> 
         <div className='gap-8 h-[340px]'>
             <h2 className='h-[120px] text-5xl font-semibold tracking-tighter text-[#101828]'>Ready to clear the path to perfect communication?</h2>
